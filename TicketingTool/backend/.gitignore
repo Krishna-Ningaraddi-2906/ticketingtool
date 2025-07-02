@@ -1,0 +1,47 @@
+# Maven
+/target/
+pom.xml.tag
+pom.xml.versionsBackup
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildHistory.xml
+.mvn/timing.properties
+
+# IDEs
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Misc
+.DS_Store
+*.swp
+*.bak
+*.orig
+*.obj
+*.o
+*.pyc
+*.class
+
+# Specific to Spring Boot
+### STS ###
+.apt_generated
+.springBeans
+.factorypath
+
+### Eclipse ###
+.apt_generated
+.apt_generated_tests
+.apt_src_generated
+.metadata
+.tooling/
