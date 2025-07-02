@@ -1,47 +1,33 @@
-# Maven
-/target/
-pom.xml.tag
-pom.xml.versionsBackup
-pom.xml.releaseBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildHistory.xml
-.mvn/timing.properties
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# IDEs
-.idea/
-.project
-.classpath
-.settings/
-*.iml
-*.ipr
-*.iws
-.vscode/
-
-# Logs
-*.log
-logs/
-
-# Misc
-.DS_Store
-*.swp
-*.bak
-*.orig
-*.obj
-*.o
-*.pyc
-*.class
-
-# Specific to Spring Boot
 ### STS ###
 .apt_generated
-.springBeans
+.classpath
 .factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-### Eclipse ###
-.apt_generated
-.apt_generated_tests
-.apt_src_generated
-.metadata
-.tooling/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
