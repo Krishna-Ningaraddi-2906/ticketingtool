@@ -1,12 +1,14 @@
 import TestComponent from "./Components/TestComponent";
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
-    <div>
-      <h1>Ticketing Tool Frontend</h1>
-      {/* all the Components need to be called here */}
-      <TestComponent></TestComponent>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/status" element={<TestComponent />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

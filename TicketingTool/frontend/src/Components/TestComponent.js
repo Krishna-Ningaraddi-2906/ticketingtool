@@ -4,7 +4,7 @@ function TestComponent() {
   const [message, setMessage] = useState("Loading...");
 
   useEffect(() => {
-    fetch("/test/status")
+    fetch("/status")
       .then(res => res.text())
       .then(data => setMessage(data))
       .catch(err => setMessage("❌ Error connecting to backend"));
